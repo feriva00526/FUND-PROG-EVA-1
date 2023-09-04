@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-04 04:53:48 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMTAxOzIwMjMtMDktMDQ7MDQ6MjI6MzUgcC4gbS47MjgyOQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMTAxOzIwMjMtMDktMDQ7MDQ6NTM6NDggcC4gbS47MTsyOTQ1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mimosa" type="String" array="False" size=""/>
+            <assign variable="mimosa" expression="&quot;Hola mimosa&quot;"/>
+            <output expression="mimosa" newline="True"/>
+            <output expression="&quot;Hola Mundo&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-08 06:48:43 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwNDI3OzIwMjMtMDktMDg7MDY6MjE6MDUgcC4gbS47Mjg0Mg=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwNDI3OzIwMjMtMDktMDg7MDY6NDg6NDMgcC4gbS47MTsyOTYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Apellidos" type="Integer" array="False" size=""/>
+            <declare name="Nombre" type="Integer" array="False" size=""/>
+            <declare name="NumControl" type="Integer" array="False" size=""/>
+            <declare name="Carrera" type="Integer" array="False" size=""/>
+            <declare name="Semestre" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce Apellidos&quot;" newline="True"/>
+            <input variable="Apellidos"/>
+            <output expression="&quot;Introduce Nombre&quot;" newline="True"/>
+            <input variable="Nombre"/>
+            <output expression="&quot;Introduce numero de control&quot;" newline="True"/>
+            <input variable="NumControl"/>
+            <output expression="&quot;Introuce Carrera&quot;" newline="True"/>
+            <input variable="Carrera"/>
+            <output expression="&quot;Introduce Semestre&quot;" newline="True"/>
+            <input variable="Semestre"/>
+            <output expression="Nombre" newline="True"/>
+            <output expression="Apellidos" newline="True"/>
+            <output expression="NumControl" newline="True"/>
+            <output expression="Carrera" newline="True"/>
+            <output expression="Semestre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
